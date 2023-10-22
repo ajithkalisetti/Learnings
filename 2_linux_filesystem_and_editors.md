@@ -20,3 +20,67 @@ Linux uses a single-rooted, inverted tree-like file system hierarchy:
 
 This Markdown representation describes the Linux file system hierarchy and makes it easier to understand its structure and equivalent concepts in Windows.
 
+# VIM EDITOR
+
+`vi` - visual display editor
+`vim` - visual display editor improved
+
+This is command mode editor for files. Other editors in Linux are emacs, gedit. `vi` editor is most popular.
+
+# Vim Editor Modes and Commands
+
+Vim is a text editor with three primary modes:
+
+1. **Command Mode**: This is the default mode when you open Vim.
+
+    - To move the cursor in Command Mode:
+        - `h` to move left.
+        - `l` to move right.
+        - `k` to move up.
+        - `j` to move down.
+
+2. **Insert Mode**: To enter Insert Mode, use the following commands:
+
+    - `i` to begin insert mode at the cursor position.
+    - `I` to insert at the beginning of the line.
+    - `a` to append to the next word's letter.
+    - `A` to append at the end of the line.
+    - `o` to insert a new line below the cursor position.
+    - `O` to insert a new line above the cursor position.
+
+3. **Command Mode**: In Command Mode, you can execute various commands:
+
+    - `gg` to go to the beginning of the page.
+    - `G` to go to the end of the page.
+    - `w` to move the cursor forward word by word.
+    - `b` to move the cursor backward word by word.
+    - `nw` to move the cursor forward n words (e.g., `5w` for 5 words).
+    - `nb` to move the cursor backward n words (e.g., `5b` for 5 words).
+    - `u` to undo the last change (word).
+    - `U` to undo the previous changes (entire line).
+    - `Ctrl+R` to redo the changes.
+    - `yy` to copy a line.
+    - `nyy` to copy n lines (e.g., `5yy` or `4yy`).
+    - `p` to paste a line below the cursor position.
+    - `P` to paste a line above the cursor position.
+    - `dw` to delete a word letter by letter (like Backspace).
+    - `x` to delete a word letter by letter (like DEL key).
+    - `dd` to delete the entire line.
+    - `ndd` to delete n lines from the cursor position (e.g., `5dd`).
+
+4. **Search Mode**: In Command Mode, you can search for a word in the file using `/`.
+
+5. **Extended Mode (Colon Mode)**: To access Extended Mode, press `Esc` and then `:`.
+
+    - `:w` to save the changes.
+    - `:q` to quit without saving.
+    - `:wq` to save and quit.
+    - `:w!` to save forcefully.
+    - `:wq!` to save and quit forcefully.
+    - `:x` to save and quit.
+    - `:X` to give a password to the file and remove a password.
+    - `:20` (or `:20n`) to go to line number 20 or n.
+    - `:set nu` to set line numbers in the file.
+    - `:set nonu` to remove the set line numbers.
+
+This Markdown representation summarizes the Vim editor modes and commands for easy reference.
