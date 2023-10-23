@@ -89,7 +89,7 @@ Here's the information you provided converted into Markdown syntax:
 
 There are various types of files in a Linux file system:
 
-- **Normal file**: A regular file that contains data.
+- **Normal file (-)**: A regular file that contains data.
 - **Directory (d)**: A special file that contains a list of file and directory names.
 - **Link file (shortcut) (l)**: A file that points to another file or directory.
 - **Block file (b)**: A special file used for block devices like hard disks and floppy disks.
