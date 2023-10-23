@@ -83,4 +83,3 @@ Vim is a text editor with three primary modes:
     - `:set nu` to set line numbers in the file.
     - `:set nonu` to remove the set line numbers.
 
-This Markdown representation summarizes the Vim editor modes and commands for easy reference.
